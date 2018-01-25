@@ -3,10 +3,12 @@
 ---
 
 ### 簡単な自己紹介
-
 ![shimakaze_soft](https://pbs.twimg.com/profile_images/909066968413511680/C3yzWTzO_400x400.jpg)
-- Twitter:@shimakaze_soft
-- GitHub:shimakaze-git
+- twitter:@shimakaze_soft
+- github:shimakaze-git
+- age:23
+----
+### 簡単な自己紹介
 - Programming
  - Python
  - Ruby
