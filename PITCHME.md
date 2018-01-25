@@ -7,18 +7,21 @@
 - age:23
 ---
 - Programming
- - Python
- - Ruby
- - C++
- - PHP
- - Go
+ - Python,Ruby,C++,PHP,Go
 - FrameWork 
- - Falcon(Python)
- - Django(Python)
+ - Falcon,Django(Python)
  - Larvel(PHP)
  - Rails(Ruby)
 - DjangoConJP Staff
-
+---
+### 改めてあけましておめでとうございます
+- 今年の目標|
+- ブロックチェーンを極めたい|
+- 自分のサービスを充実|
+- Scalaやってみようかな|
+- 今年の冬は一人でコーディングなんてことにならないようにする
+---
+**彼女募集中**
 ---
 ### Q.そもそもブロックチェーンって何？
 
