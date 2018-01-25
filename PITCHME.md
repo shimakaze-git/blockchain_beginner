@@ -57,14 +57,15 @@
 ---
 ### 分散台帳ってどういうこと？
 ![中央集権](http://frame-illust.com/fi/wp-content/uploads/2017/05/blockchain01-9839.png)
+---
 - P2Pという技術を使用している|
 - 取引履歴（帳簿）を参加者(マイナー)全員で持ち合って、不正取引が無いかをお互い検証している|
-- https://blockchain.info/ja/block/00000000000000000031a42afeef2061a6014426926c71b477e0f3e439bfb399
----
-![ハッシュ](https://blockchain-jp.com/wp-content/uploads/2017/01/block2.png)
+- https://blockchain.info/ja/block/00000000000000000031a42afeef2061a6014426926c71b477e0f3e439bfb399|
 ---
 トランザクション
 ![トランザクション](https://my-ether.net/wp-content/uploads/2017/09/transaction4.png)
+---
+![ハッシュ](https://blockchain-jp.com/wp-content/uploads/2017/01/block2.png)
 ---
 ブロックチェーン
 ![ブロックチェーン](https://cryptocoin-beginner.com/wp-content/uploads/2018/01/blockchain.png)
