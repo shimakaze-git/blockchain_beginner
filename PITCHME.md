@@ -39,6 +39,5 @@
 ---
 ブロックチェーン
 ![ブロックチェーン](https://cryptocoin-beginner.com/wp-content/uploads/2018/01/blockchain.png)
-![中央集権型](https://bittimes.net/wp-content/uploads/2017/10/blockchain06.jpg)
 ---
 ### おわり
