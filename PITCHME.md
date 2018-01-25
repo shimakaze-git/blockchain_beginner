@@ -1,5 +1,5 @@
 ### ブロックチェーンキホンのき
-今流行りの仮想通貨の仕組み
+今流行りの仮想通貨(暗号通貨)の仕組み
 ---
 ![shimakaze_soft](https://pbs.twimg.com/profile_images/909066968413511680/C3yzWTzO_400x400.jpg)
 - twitter:@shimakaze_soft
@@ -11,7 +11,7 @@
  - Ruby
  - C++
  - PHP
- - GO
+ - Go
 - FrameWork 
  - Falcon(Python)
  - Django(Python)
@@ -31,9 +31,13 @@
 ---
 ### Q.仮想通貨っていうので何ができるんだ?
 - つまりは**お金**|
-- 実際の通貨(日本銀行券)と交換できる
+- 実際の通貨(日本銀行券)と交換できる|
+- 日本銀行券(円)←→ビットコイン(BTC)|
 ---
-これらを交換できる
-日本銀行券(円)←→ビットコイン(BTC)
+トランザクション
+![トランザクション](https://my-ether.net/wp-content/uploads/2017/09/transaction4.png)
+---
+ブロックチェーン
+![ブロックチェーン](https://cryptocoin-beginner.com/wp-content/uploads/2018/01/blockchain.png)
 ---
 ### おわり
