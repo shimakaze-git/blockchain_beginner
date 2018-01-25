@@ -1,14 +1,11 @@
 ### ブロックチェーンキホンのき
 今流行りの仮想通貨の仕組み
 ---
-
-### 簡単な自己紹介
 ![shimakaze_soft](https://pbs.twimg.com/profile_images/909066968413511680/C3yzWTzO_400x400.jpg)
 - twitter:@shimakaze_soft
 - github:shimakaze-git
 - age:23
-----
-### 簡単な自己紹介
+---
 - Programming
  - Python
  - Ruby
