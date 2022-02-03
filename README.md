@@ -1,6 +1,6 @@
-# blockchain_beginner
+blockchain_beginner
 
-## BlockChain 学習
+# BlockChain 学習
 
 - [つまずかないブロックチェーン学習の始め方と学習手順](https://baasinfo.net/?p=3791)
 - [cryptozombies.io](https://cryptozombies.io/jp/course)
@@ -8,12 +8,6 @@
 - [enterchain.online](https://enterchain.online/home)
 - [pol.techtec](https://pol.techtec.world/blockchain-usecase/bitcoin)
 - [ブロックチェーン・サービス](https://firebasestorage.googleapis.com/v0/b/enterchain.appspot.com/o/slides%2Fb5d57963-d54d-4d72-a2bf-7dcc0bf44c13?alt=media&token=94fcadce-c353-4062-b738-bba3548ddd94)
-
-# White Papper
-
-- [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
-
-# 学習手順
 
 ## 仕組み
 
@@ -49,15 +43,44 @@ Gethを動かしているとイーサリアムの挙動がわかってくる。G
 
 ### スマートコントラクトを書く言語(Solidity)の学習
 
-### 
+Solidityはスマートコントラクトを書くためのプログラミング言語。
+Solidityの学習の導入にはクリプトゾンビが最適。
+
+- https://cryptozombies.io/jp/course
+
+より実践的な内容は以下の`Solidity Doc`を参照。
+
+https://solidity.readthedocs.io/en/v0.6.2/
+
+### スマートコントラクトへアクセスするためのクライアントツール(web3.js)の学習
+
+分散型ワールドワイドウェブの新しい世界を目指す標語がWeb3であり、web3.jsはブロックチェーンのためのウェブクライアント(ブラウザからブロックチェーンにリクエストを送るツール)。
+
+実態としてはweb3.jsはブラウザに埋め込むJavascript。
+
+使い方は以下
+
+- https://web3js.readthedocs.io/en/v1.2.6/
+
+### 開発フレームワーク(Truffle)の学習
 
 ## 発展
 
-# python3.6以上の導入
+### その他、Quorum, Corda, HyperledgerなどのEthereum以外のブロックチェーンの学習
+
+
+
+# その他
+
+## White Papper
+
+- [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+
+## python3.6以上の導入
 https://qiita.com/Fendo181/items/912b65c4fcc3d701d53d
 
-# 参考元
+## 参考元
 http://postd.cc/learn-blockchains-by-building-one/
 
-# 推薦本の紹介サイト
+## 推薦本の紹介サイト
 http://www.neuralsparrow.com/entry/2017/03/01/060323
