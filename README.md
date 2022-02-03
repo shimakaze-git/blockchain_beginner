@@ -13,6 +13,17 @@
 
 - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
 
+# 学習手順
+
+## 仕組み
+
+- ビットコイン(ブロックチェーン)の概念の学習
+- イーサリアムとスマートコントラクトの概念の学習
+
+## ツール
+
+## 発展
+
 # python3.6以上の導入
 https://qiita.com/Fendo181/items/912b65c4fcc3d701d53d
 
