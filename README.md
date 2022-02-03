@@ -64,11 +64,21 @@ https://solidity.readthedocs.io/en/v0.6.2/
 
 ### 開発フレームワーク(Truffle)の学習
 
+Webの世界で言うとExpress, Nest.jsなどのバックエンドフレームワークに類似するもの。
+
+`Truffle`はスマートコントラクト開発のデファクトスタンダードではあるが、概要は以下の記事に書いてある。
+
+- https://baasinfo.net/?p=3331
+
 ## 発展
 
 ### その他、Quorum, Corda, HyperledgerなどのEthereum以外のブロックチェーンの学習
 
+- Quorum ドキュメント(http://docs.goquorum.com/en/latest/)
+- Cordaドキュメント(https://docs.corda.net/)
+- Hyperledger Fabricドキュメント(https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
 
+[Quorumのネットワークをスクラッチから構築してみる](https://baasinfo.net/?p=3432)
 
 # その他
 
