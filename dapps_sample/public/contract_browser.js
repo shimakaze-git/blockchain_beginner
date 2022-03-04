@@ -29197,27 +29197,61 @@ const initialize = () => {
             accounts = newAccounts;
             console.log("accounts", accounts)
 
-            // accountsDiv.innerHTML = accounts;
-            // if (isMetaMaskConnected()) {
-            //     retrieveButton.disabled = false;
-            //     retrieveButton.onclick = onClickRetrieve;
-            //     storeButton.disabled = false;
-            //     storeButton.onclick = onClickStore;
-            //     const provider = new ethers.providers.Web3Provider(window.ethereum);
-            //     const signer = provider.getSigner(0);
-            //     myContract = new ethers.Contract(ContractAddress, ContractAbi, signer);
-            // }
+            //アカウントのアドレスを表示
+            accountsDiv.innerHTML = accounts;
+
+            console.log("accountsDiv", accountsDiv);
+
+            if (isMetaMaskConnected()) {
+                retrieveButton.disabled = false;
+                retrieveButton.onclick = onClickRetrieve;
+                storeButton.disabled = false;
+                storeButton.onclick = onClickStore;
+
+                const provider = new ethers.providers.Web3Provider(
+                    window.ethereum
+                );
+                const signer = provider.getSigner(0);
+
+                console.log("provider", provider);
+                console.log("signer", signer);
+
+                // myContract = new ethers.Contract(
+                //     ContractAddress,
+                //     ContractAbi,
+                //     signer
+                // );
+                // console.log("myContract", myContract);
+            }
+
         } catch (error) {
             console.error(error);
         }
     }
 
     // onClickRetrieve
+    const onClickRetrieve = async () => {
+        try {
+            let res = await myContract.retrieve();
+            messageStatus.innerHTML = res;
+        } catch (error) {
+            console.error(error);
+        }
+    }
 
     // onClickStore
+    const onClickStore = async () => {
+        try {
+            let message = inputMessage.value;
+            myContract.store(message);
+            messageStatus.innerHTML = 'Your message has been sent';
+        } catch (error) {
+            console.error(error);
+        }
+    }
 
     const MetaMaskClientCheck = () => {
-        console.log("MetaMaskClientCheck")
+        console.log("MetaMaskClientCheck", onboardButton)
 
         if (!isMetaMaskInstalled()) {
             onboardButton.innerText = 'Please install MetaMask';
