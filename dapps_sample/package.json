@@ -13,6 +13,9 @@
   },
   "scripts": {
     "truffle": "truffle",
-    "ganache": "ganache"
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --network development",
+    "ganache": "ganache --db save/",
+    "client:build": "browserify public/contract.js -o public/contract_browser.js"
   }
 }

@@ -16,19 +16,6 @@ const initialize = () => {
 
     const ContractAbi = [
         {
-            "inputs": [],
-            "name": "retrieve",
-            "outputs": [
-                {
-                    "internalType": "string",
-                    "name": "",
-                    "type": "string"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
             "inputs": [
                 {
                     "internalType": "string",
@@ -40,10 +27,24 @@ const initialize = () => {
             "outputs": [],
             "stateMutability": "nonpayable",
             "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "retrieve",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function",
+            "constant": true
         }
     ];
 
-    const ContractAddress = "0x***";
+    const ContractAddress = "0x68d12F2302ab442A3C278B174AC5A72692f25cd6";
     const isMetaMaskConnected = () => accounts && accounts.length > 0
 
     const isMetaMaskInstalled = () => {
@@ -83,12 +84,12 @@ const initialize = () => {
                 console.log("provider", provider);
                 console.log("signer", signer);
 
-                // myContract = new ethers.Contract(
-                //     ContractAddress,
-                //     ContractAbi,
-                //     signer
-                // );
-                // console.log("myContract", myContract);
+                myContract = new ethers.Contract(
+                    ContractAddress,
+                    ContractAbi,
+                    signer
+                );
+                console.log("myContract", myContract);
             }
 
         } catch (error) {
