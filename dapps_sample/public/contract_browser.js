@@ -29203,7 +29203,7 @@ const initialize = () => {
         }
     ];
 
-    const ContractAddress = "0x68d12F2302ab442A3C278B174AC5A72692f25cd6";
+    const ContractAddress = "0x997a527262eeA82299b56f956a8Af56ad9763360";
     const isMetaMaskConnected = () => accounts && accounts.length > 0
 
     const isMetaMaskInstalled = () => {
